@@ -1,0 +1,91 @@
+/* src/styles.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .slideBox h1 {
+    @apply text-white text-[4rem] font-extrabold;
+  }
+  .comments div {
+    @apply mb-[50px] sm:mb-[0px];
+  }
+  .comments div h1 {
+    @apply text-center font-[900] text-[1rem];
+  }
+  .comments div p {
+    @apply text-center mt-[2px] sm:mt-[40px] font-[900] text-[2.5rem];
+  }
+}
+
+.bar div {
+  width: 30px;
+  border-top: 2px red solid;
+}
+
+.slideBox {
+  animation: sliding 8s infinite linear;
+}
+@keyframes sliding {
+  to {
+    transform: translateX(-50%);
+  }
+}
+.btn::after {
+  content: "";
+  position: absolute;
+  height: 105%;
+  width: 100%;
+  top: 0.5px;
+  left: 4px;
+  border-radius: 30px;
+  background-color: yellow;
+}
+
+.btn2::after {
+  content: "";
+  position: absolute;
+  height: 105%;
+  width: 100%;
+  top: 4px;
+  left: 6px;
+  border-radius: 30px;
+  background-color: black;
+  transition: 0.5s;
+}
+.btn2:hover::after {
+  top: 2px;
+  left: 4px;
+}
+
+.box img {
+  transition: opacity 2s;
+}
+.hide {
+  opacity: 0;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.roll {
+  animation: rolling 7s infinite linear;
+  animation-play-state: paused;
+}
+
+@keyframes rolling {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.roll:hover {
+  animation-play-state: running;
+}
+
+.showmenu {
+  opacity: 1;
+}

@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./public/tailwind.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Nav Section -->
+    <div class="flex justify-between items-center px-[40px] py-[15px] bg-white">
+      <ul
+        class="menu flex opacity-0 sm:opacity-100 justify-around sm:justify-start p-[10px] sm:p-0 absolute sm:static bg-[red] sm:bg-transparent left-0 top-[70px] h-fit sm:h-auto w-full sm:w-auto space-x-[10px] font-[500] text-[1.1rem]"
+      >
+        <li class="hover:text-green-400 duration-300 cursor-pointer">Home</li>
+        <li class="hover:text-green-400 duration-300 cursor-pointer">Shop</li>
+        <li class="hover:text-green-400 duration-300 cursor-pointer">Pages</li>
+      </ul>
+      <h1 class="text-[2.3rem] font-bold">ColorWonder</h1>
+      <img class="h-[32px] w-[37px]" src="./images/cartimg.svg" alt="cart" />
+      <div class="bar space-y-[10px] block sm:hidden">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+
+    <!-- hero section -->
+    <div class="w-full sm:h-[100vh] border-black border-y-[2px] sm:flex">
+      <div
+        class="w-full sm:w-1/2 h-full bg-green-500 border-black border-r-[1px] px-[25px] grid place-items-center"
+      >
+        <div>
+          <h1 class="font-bold text-[4.6rem] leading-[75px]">
+            Made for every day, for everyone.
+          </h1>
+          <p class="my-[26px]">
+            Owing to the claims of duty or the obligations of business it will
+            frequently occur that pleasures have to be repudiated.
+          </p>
+          <div class="relative btn w-fit h-fit">
+            <div
+              class="relative w-fit z-[999] bg-black text-white px-[30px] py-[13px] rounded-[30px] font-bold"
+            >
+              Shop Now
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="w-full sm:w-1/2 h-full relative bg-yellow-400 border-black border-l-[1px] grid place-items-center"
+      >
+        <img class="w-[95%]" src="./images/boysband.png" alt="boys band" />
+
+        <div class="absolute top-[65%] right-[40px]">
+          <div class="relative btn2 group w-fit h-fit">
+            <div
+              class="relative w-fit z-[999] bg-white group-hover:bg-[yellow] duration-500 cursor-pointer text-black px-[40px] py-[13px] rounded-[30px] font-bold"
+            >
+              Printed Shirts
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Store section -->
+    <div class="h-fit w-full bg-[white] pt-[70px]">
+      <div class="flex flex-col items-center">
+        <h1 class="text-[3rem] font-bold text-center w-[80%]">
+          Everything we do is influenced by our shoppers. We believe in good
+          times and good vibes. Get into a club!
+        </h1>
+        <p class="mt-[50px] font-extrabold">
+          ++++++++++++++++++++++++++++++++++
+        </p>
+      </div>
+
+      <div class="mt-[60px]">
+        <h1 class="text-center text-[3rem] font-extrabold">We Recommend</h1>
+
+        <div class="px-[10px] py-[20px] flex flex-wrap justify-center">
+          <div class="box mb-[40px] mr-[20px]">
+            <div class="relative w-[292px] h-[292px] rounded-[10px]">
+              <div
+                class="absolute w-full h-full bg-black top-[10px] left-[10px] z-10 rounded-[inherit]"
+              ></div>
+              <div
+                class="absolute top-0 left-0 w-full h-full border-black border-4 bg-white z-20 rounded-[inherit]"
+              >
+                <img class="img1 absolute" src="/images/wonder1a.jpg" alt="" />
+                <img
+                  class="img2 absolute hide w-full h-full rounded-[inherit]"
+                  src="/images/wonder1b.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="text-center font-extrabold mt-[10px]">
+              <h1>White brand logo printed visor cap</h1>
+              <p class="text-[1.2rem]">$ 18.00 USD</p>
+            </div>
+          </div>
+
+          <div class="box mb-[40px] mr-[20px]">
+            <div class="relative w-[292px] h-[292px] rounded-[10px]">
+              <div
+                class="absolute w-full h-full bg-black top-[10px] left-[10px] z-10 rounded-[inherit]"
+              ></div>
+              <div
+                class="absolute top-0 left-0 w-full h-full border-black border-4 bg-white z-20 rounded-[inherit]"
+              >
+                <img class="img1 absolute" src="/images/wonder2a.jpg" alt="" />
+                <img
+                  class="img2 absolute hide w-full h-full rounded-[inherit]"
+                  src="/images/wonder2b.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="text-center font-extrabold mt-[10px]">
+              <h1>Women green printed night suit</h1>
+              <p class="text-[1.2rem]">$ 40.00 USD</p>
+            </div>
+          </div>
+
+          <div class="box mb-[40px] mr-[20px]">
+            <div class="relative w-[292px] h-[292px] rounded-[10px]">
+              <div
+                class="absolute w-full h-full bg-black top-[10px] left-[10px] z-10 rounded-[inherit]"
+              ></div>
+              <div
+                class="absolute top-0 left-0 w-full h-full border-black border-4 bg-white z-20 rounded-[inherit]"
+              >
+                <img class="img1 absolute" src="/images/wonder3a.jpg" alt="" />
+                <img
+                  class="img2 absolute hide w-full h-full rounded-[inherit]"
+                  src="/images/wonder3b.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="text-center font-extrabold mt-[10px]">
+              <h1>Embroidered baseball cap</h1>
+              <p class="text-[1.2rem]">$ 45.00 USD</p>
+            </div>
+          </div>
+
+          <div class="box mb-[40px] mr-[20px]">
+            <div class="relative w-[292px] h-[292px] rounded-[10px]">
+              <div
+                class="absolute w-full h-full bg-black top-[10px] left-[10px] z-10 rounded-[inherit]"
+              ></div>
+              <div
+                class="absolute top-0 left-0 w-full h-full border-black border-4 bg-white z-20 rounded-[inherit]"
+              >
+                <img class="img1 absolute" src="/images/wonder4a.jpg" alt="" />
+                <img
+                  class="img2 absolute hide w-full h-full rounded-[inherit]"
+                  src="/images/wonder4b.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="text-center font-extrabold mt-[10px]">
+              <h1>Boys printed sliders</h1>
+              <p class="text-[1.2rem]">$ 18.00 USD</p>
+            </div>
+          </div>
+
+          <div class="box mb-[40px] mr-[20px]">
+            <div class="relative w-[292px] h-[292px] rounded-[10px]">
+              <div
+                class="absolute w-full h-full bg-black top-[10px] left-[10px] z-10 rounded-[inherit]"
+              ></div>
+              <div
+                class="absolute top-0 left-0 w-full h-full border-black border-4 bg-white z-20 rounded-[inherit]"
+              >
+                <img class="img1 absolute" src="/images/wonder5a.jpg" alt="" />
+                <img
+                  class="img2 absolute hide w-full h-full rounded-[inherit]"
+                  src="/images/wonder5b.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="text-center font-extrabold mt-[10px]">
+              <h1>Lavender hooded sweatshirt</h1>
+              <p class="text-[1.2rem]">$ 47.00 USD</p>
+            </div>
+          </div>
+
+          <div class="box mb-[40px] mr-[20px]">
+            <div class="relative w-[292px] h-[292px] rounded-[10px]">
+              <div
+                class="absolute w-full h-full bg-black top-[10px] left-[10px] z-10 rounded-[inherit]"
+              ></div>
+              <div
+                class="absolute top-0 left-0 w-full h-full border-black border-4 bg-white z-20 rounded-[inherit]"
+              >
+                <img class="img1 absolute" src="/images/wonder6a.jpg" alt="" />
+                <img
+                  class="img2 absolute hide w-full h-full rounded-[inherit]"
+                  src="/images/wonder6b.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="text-center font-extrabold mt-[10px]">
+              <h1>High-Top trekking shoes</h1>
+              <p class="text-[1.2rem]">$ 42.00 USD</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="w-full flex justify-center">
+        <div class="relative w-fit border-2 border-black rounded-full p-1">
+          <img class="roll" src="/images/wondercircle.png" alt="" />
+          <img class="arrow" src="/images/wonderarrow.svg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide Section -->
+    <div class="relative mt-[100px]">
+      <div class="bg-[#fd4b38] w-full h-[180px] overflow-x-hidden">
+        <div class="slideBox h-full flex items-center space-x-[80px] w-fit">
+          <h1>Men</h1>
+          <h1>Women</h1>
+          <h1>TShirt</h1>
+          <h1>Hoodies</h1>
+          <h1>Joggers</h1>
+          <h1>Men</h1>
+          <h1>Women</h1>
+          <h1>TShirt</h1>
+          <h1>Hoodies</h1>
+          <h1>Joggers</h1>
+          <div></div>
+        </div>
+      </div>
+      <div class="bg-black h-[10px]"></div>
+    </div>
+
+    <!-- Comments Section -->
+    <div
+      class="comments relative bg-[lightblue] h-fit mt-[50px] mx-[20px] px-[30px] pt-[20px] sm:pt-[120px] pb-[40px] border-2 border-black rounded-[20px] sm:flex sm:justify-around sm:items-center"
+    >
+      <h2
+        class="absolute left-[50%] translate-x-[-50%] hidden sm:block top-[-13%] text-[1.5rem] sm:text-[3rem] font-extrabold"
+      >
+        Look Who's Talking...
+      </h2>
+
+      <div>
+        <h1>
+          "But who has any right to find fault with a man who chooses to enjoy a
+          pleasure that has."
+        </h1>
+        <p>vertrio</p>
+      </div>
+
+      <div>
+        <h1>
+          "At vero eos et accusamus et iusto odio dignissimos ducimus qui
+          blanditiis praesentium."
+        </h1>
+        <p>happenz</p>
+      </div>
+
+      <div>
+        <h1>
+          "No one rejects, dislikes, or avoids pleasure itself, because it is
+          pleasure, but because."
+        </h1>
+        <p>Qugey</p>
+      </div>
+    </div>
+
+    <!-- Newsletter Section -->
+    <div class="mt-[50px]">
+      <h1 class="font-[800] text-[3rem] sm:text-[5rem] text-center">
+        Don’t miss the <br />
+        update
+      </h1>
+      <div class="w-full flex justify-center mt-[30px]">
+        <div class="flex sm:flex-row flex-col">
+          <input
+            class="w-[300px] border-black border-2 border-dashed mr-[20px] rounded-full px-2 py-1 mb-[10px] sm:mb-0"
+            type="text"
+            placeholder="Enter your email"
+          />
+          <button
+            class="border-black border-2 rounded-full w-[300px] sm:w-auto sm:px-4 sm:py-1 font-bold text-[1.4rem]"
+          >
+            Subscribe
+          </button>
+        </div>
+      </div>
+
+      <div class="flex justify-center mt-[20px]">
+        <div class="flex space-x-[10px]">
+          <p class="text-[1.3rem] cursor-pointer hover:text-red-400">Email</p>
+          <p class="text-[1.3rem] cursor-pointer hover:text-red-400">Call</p>
+          <p class="text-[1.3rem] cursor-pointer hover:text-red-400">
+            Facebook
+          </p>
+          <p class="text-[1.3rem] cursor-pointer hover:text-red-400">
+            Instagram
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer
+      class="bg-black text-white font-bold py-2 text-center mt-[20px] text-[2rem]"
+    >
+      Built With Love By HASSAN BASIT
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
