@@ -1011,10 +1011,6 @@ video {
   opacity: 0;
 }
 
-.opacity-100 {
-  opacity: 1;
-}
-
 .duration-300 {
   transition-duration: 300ms;
 }
@@ -1184,6 +1180,11 @@ video {
   .sm\:py-1 {
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
+  }
+
+  .sm\:px-\[40px\] {
+    padding-left: 40px;
+    padding-right: 40px;
   }
 
   .sm\:pt-\[120px\] {
